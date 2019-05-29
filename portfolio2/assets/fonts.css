@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TheHistoriaDemo';
+    src: url('../fonts/TheHistoriaDemo.eot');
+    src: url('../fonts/TheHistoriaDemo.eot') format('embedded-opentype'),
+         url('../fonts/TheHistoriaDemo.woff2') format('woff2'),
+         url('../fonts/TheHistoriaDemo.woff') format('woff'),
+         url('../fonts/TheHistoriaDemo.ttf') format('truetype'),
+         url('../fonts/TheHistoriaDemo.svg#TheHistoriaDemo') format('svg');
+}

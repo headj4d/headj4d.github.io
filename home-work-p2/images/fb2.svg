@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.308" height="21" viewBox="0 0 60.308 21">
+  <g id="Group_247" data-name="Group 247" transform="translate(-3919.182 -1181.32)">
+    <g id="Group_246" data-name="Group 246">
+      <rect id="Rectangle_60" data-name="Rectangle 60" width="60.308" height="21" transform="translate(3919.182 1181.32)" fill="#4a62ac"/>
+      <text id="Share" transform="translate(3940.719 1196.124)" fill="#fff" font-size="11.846" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Share</tspan></text>
+      <path id="Path_393" data-name="Path 393" d="M3936.682,1196.074a2.759,2.759,0,0,1-2.746,2.746H3932.1v-5.762h1.939l.269-2.1H3932.1v-1.346a.975.975,0,0,1,1.185-1.077h1.238v-1.992c-.592-.054-1.184-.108-1.723-.108a2.808,2.808,0,0,0-2.046.754,2.775,2.775,0,0,0-.754,2.154v1.561h-2.1v2.1h2.1v5.762h-5.169a2.367,2.367,0,0,1-1.885-.754,2.645,2.645,0,0,1-.807-1.938v-9.047a2.757,2.757,0,0,1,2.746-2.746h9.1a2.609,2.609,0,0,1,1.884.808,2.641,2.641,0,0,1,.808,1.938v9.047Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

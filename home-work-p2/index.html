@@ -5,18 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Home-Work-p2</title>
-  <link rel="stylesheet" href="assets/css/fonts.css">
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
   <header class="header">
-    <div class="container">
-    <a href="#" class="logo float-left">
+    <div class="container d-flex header-wrapper">
+    <a href="#" class="logo">
     <img src="images/logo.svg" alt="logo">
     </a>
-    <nav class="display-inline-block">
-      <ul class="">
+    <nav>
+      <ul>
         <li class="display-inline-block">
           <a href="index.html" class="vertical-middle">Home</a>
         </li>
@@ -32,28 +30,35 @@
       </ul>
     </nav>
     <!-- socials -->
-    <ul class="socials float-right">
-      <li class="display-inline-block vertical-top border-line">
+    <div class="right-block d-flex">
+    <ul class="socials">
+      <li class="social-li display-inline-block vertical-middle border-line">
         <a href="#" class="social-a">
           <img src="images/g.png" alt="g">
         </a>
       </li>
-      <li class="display-inline-block vertical-top border-line">
+      <li class="social-li display-inline-block vertical-middle border-line">
         <a href="#" class="social-a">
           <img src="images/fb.png" alt="g">
         </a>
       </li>
-      <li class="display-inline-block vertical-top border-line">
+      <li class="social-li display-inline-block vertical-middle border-line">
         <a href="#">
           <img src="images/yt.png" alt="yt">
         </a>
       </li>
-      <li class="display-inline-block vertical-top">
+      <li class="social-li display-inline-block vertical-middle search">
         <a href="#">
           <img src="images/search.png" alt="search">
         </a>
       </li>
     </ul>
+    <div class="burger">
+      <span class="arrow"></span>
+      <span class="arrow"></span>
+      <span class="arrow"></span>
+    </div>
+    </div>
     </div>
   </header>
 
@@ -71,9 +76,10 @@
   </section>
 
   <section class="video-section">
-    <div class="container">
+    <div class="container ">
       <h1 class="video-title">videos | <a href="#">all videos</a></h1>
-      <div class="video float-left">
+      <div class="d-flex video-wrapper">
+      <div class="video">
         <video controls="on" autoplay="off">
           <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
         </video>
@@ -81,67 +87,70 @@
           <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg"/>
         </audio>
       </div>
-      <div class="video float-right">
+      <div class="video">
         <iframe src="https://www.youtube.com/embed/Ga92yvgarT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-      <div class="clear"></div>
+    </div>
     </div>
   </section>
 
   <section class="article-section">
     <div class="container-article">
       <h1 class="article-title">news | <a href="#">all news</a></h1>
-      <arcticle class="article display-inline-block">
+      <div class="article-flex article-wrapper d-flex">
+      <arcticle class="article">
         <div class="img-block">
           <img src="images/typography.jpg" alt="typography">
         </div>
         <h2>TYPOGRAPHY LAB</h2>
       </arcticle>
-      <arcticle class="article display-inline-block">
+      <arcticle class="article">
         <div class="img-block">
           <img src="images/pc.jpg" alt="pc">
         </div>
         <h2>ONLINE MARKETING</h2>
       </arcticle>
-      <arcticle class="article display-inline-block">
+      <arcticle class="article">
         <div class="img-block">
           <img src="images/cod.jpg" alt="cod">
         </div>
         <h2>C# CODING</h2>
       </arcticle>
-      <arcticle class="article display-inline-block">
+      <arcticle class="article">
         <div class="img-block">
           <img src="images/des.jpg" alt="des">
         </div>
         <h2>INTERFACE DESIGN</h2>
       </arcticle>
+      </div>
     </div>
   </section>
 
   <section class="featured">
     <div class="container">
       <h1 class="featured-title">Featured | <a href="#">view all featured media</a></h1>
-      <article class="featured-article display-inline-block float-left">
+      <div class="d-flex featured-flex">
+      <article class="featured-article ">
         <h2>RESPONSIVE WEB DESIGN</h2>
         <img src="images/articlepic1.png" alt="pic1">
         <p class="display-inline-block">Approach that suggests that design and development should
           respond to the user's behavior and
           environment based on screen size, platform and orientation.</p>
           <div class="read-more">
-					<a class="float-right" href="#">read more</a>
+					<a class="" href="#">read more</a>
 				</div>
       </article>
-      <article class="featured-article display-inline-block float-right">
+      <article class="featured-article  ">
         <h2>APP DEVELOPMENT</h2>
         <img src="images/articlepic2.png" alt="pic2">
         <p class="display-inline-block">Mobile application development is the process of making or creating a
           mobile application to run on various mobile platforms. A
           mobile platform is a mobile operating system.</p>
           <div class="read-more">
-					<a class="float-right" href="#">read more</a>
+					<a href="#">read more</a>
 				</div>
       </article>
-      <div class="clear"></div>
+      </div>
     </div>
   </section>
 

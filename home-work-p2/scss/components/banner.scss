@@ -1,0 +1,18 @@
+.banner {
+  .banner-text {
+    margin: -150px 0 0 30px;
+    color: #E6E6E6;
+    font-size: 30px;
+  }
+  img {
+    width: 100%;
+  }
+  img:nth-child(3) {
+  position: relative;
+  left: 1050px;
+  right: 10px;
+  top: -30px;
+  margin-bottom: 30px;
+  width: 98px;
+}
+}

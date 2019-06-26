@@ -1,0 +1,27 @@
+.article-section {
+  background-color: #BDCCD4;
+  padding-bottom: 90px;
+  .article-title {
+    line-height: 90px;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    a {
+      color: #fff;
+      text-transform: lowercase;
+    }
+  }
+  .article {
+    h2 {
+      line-height: 60px;
+      background-color: #E6E6E6;
+      text-align: center;
+      font-size: 22px;
+      text-transform: uppercase;
+      width: 100%;
+    }
+    img {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+/* header */
+.header{
+  padding: 30px 0;
+  .burger {
+        width: 40px;
+        height: 40px;
+        border: 3px solid #363E97;
+        margin-left: 15px;
+        display: none;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        .arrow{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(0);
+            width: 30px;
+            height: 3px;
+            background-color: #363E97;
+            transition: all .3s linear;
+            &:nth-child(1){
+                top: 30%;
+            }
+            &:nth-child(3){
+                top: 70%;
+            }
+        }
+        &.active{
+            .arrow{
+                :nth-child(1){
+                    top: 50%;
+                    transform: translate(-50%, -50%) rotate(45deg);
+                }
+                :nth-child(2){
+                    left: -150%;
+                }
+                :nth-child(3){
+                    top: 50%;
+                    transform: translate(-50%, -50%) rotate(-45deg);
+                }
+            }
+        }
+    }
+  .logo{
+    width: 100px;
+  }
+  .socials {
+    li {
+      padding: 0 15px;
+    }
+  }
+  nav {
+    ul {
+      li {
+        padding: 0 15px;
+        font-size: 24px;
+        vertical-align: middle;
+        text-transform: uppercase;
+        a {
+          color: #3D58A6;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.about-stylistic {
+  background-color: #EE4036;
+  line-height: 90px;
+  margin-bottom: 60px;
+  a {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+}
+
+.about {
+  .about-img-container {
+    border: 2px solid #EE4036;
+    padding: 40px;
+    &:hover {
+      transform: scale(1.5);
+      background-color: #fff;
+    }
+  }
+  .about-img {
+    &:nth-child(3),
+    &:nth-child(2) {
+      margin-left: 120px;
+    }
+    h1 {
+      font-size: 22px;
+      text-transform: uppercase;
+      color: #EE4036;
+      line-height: 40px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
+
+.team {
+  margin: 91px 0 220px 0;
+  border-top-width: 1px;
+  border-top-color: #EE4036;
+  border-top-style: solid;
+  h1 {
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #EE4036;
+    margin-bottom: 20px;
+  }
+  .surname {
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5) {
+      margin-left: 116px;
+    }
+    h2 {
+      margin: -100px 0 0 35px;
+      font-size: 20px;
+    }
+  }
+}
